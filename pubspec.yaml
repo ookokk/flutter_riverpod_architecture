@@ -1,0 +1,51 @@
+name: flutter_riverpod_architecture
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #network
+  dio: ^5.4.3+1
+  #state management
+  hooks_riverpod: ^2.5.1
+  flutter_hooks: ^0.20.5
+  #routing
+  auto_route: ^8.2.0
+  #ui
+  cupertino_icons: ^1.0.6
+  gap: ^3.0.1
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  flutter_vector_icons: ^2.0.0
+  adaptive_dialog: ^2.1.0
+  #animations
+  animate_do: ^3.3.4
+  #core_utilities
+  url_launcher: ^6.3.0
+  supercharged: ^2.1.1
+  recase: ^4.1.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  flutter_local_notifications: ^17.1.2
+   #environment
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.11
+  auto_route_generator: ^8.0.0
+  hive_generator: ^2.0.1
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
