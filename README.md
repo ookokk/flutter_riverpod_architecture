@@ -1,4 +1,4 @@
-# flutter_riverpod_architecture
+# pick_champ
 
 A new Flutter project.
 

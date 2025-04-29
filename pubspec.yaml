@@ -1,51 +1,56 @@
-name: flutter_riverpod_architecture
+name: pick_champ
 description: "A new Flutter project."
 publish_to: 'none'
 version: 1.0.0+1
-
 environment:
-  sdk: '>=3.4.3 <4.0.0'
-
+  sdk: ^3.7.2
 dependencies:
+
+  animation_search_bar: ^0.0.10
+  auto_route: 7.8.4
+  cached_network_image: ^3.4.1
+  connectivity_plus: ^4.0.1
+  cupertino_icons: ^1.0.6
+  dio: ^5.8.0+1
+  easy_localization: ^3.0.7
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
-  #network
-  dio: ^5.4.3+1
-  #state management
-  hooks_riverpod: ^2.5.1
-  flutter_hooks: ^0.20.5
-  #routing
-  auto_route: ^8.2.0
-  #ui
-  cupertino_icons: ^1.0.6
-  gap: ^3.0.1
-  flutter_svg: ^2.0.10+1
-  google_fonts: ^6.2.1
-  flutter_vector_icons: ^2.0.0
-  adaptive_dialog: ^2.1.0
-  #animations
-  animate_do: ^3.3.4
-  #core_utilities
-  url_launcher: ^6.3.0
-  supercharged: ^2.1.1
-  recase: ^4.1.0
+  flutter_dotenv: ^5.2.1
+  flutter_riverpod: ^2.6.1
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.14
   freezed_annotation: ^2.4.1
+  google_fonts: ^6.2.1
+  google_sign_in: ^6.1.6
+  image_cropper: ^8.0.2
+  image_picker: ^1.1.2
   json_annotation: ^4.9.0
-  flutter_local_notifications: ^17.1.2
-   #environment
-  flutter_dotenv: ^5.1.0
+  lottie: ^2.6.0
+  permission_handler: ^11.3.1
+  salomon_bottom_bar: ^3.3.2
+  shared_preferences: ^2.0.15
+  sign_in_with_apple: ^6.1.4
+    # unity_ads_plugin: ^0.3.21
+  url_launcher: ^6.3.1
+
+
+
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  auto_route_generator: ^7.3.2
   build_runner: ^2.4.11
-  auto_route_generator: ^8.0.0
-  hive_generator: ^2.0.1
+  flutter_lints: ^3.0.0
+  flutter_test:
+      sdk: flutter
   freezed: ^2.5.2
   json_serializable: ^6.8.0
-  flutter_lints: ^3.0.0
-flutter:
-  uses-material-design: true
+  very_good_analysis: ^6.0.0
 
-  assets:
-    - .env
+flutter:
+    uses-material-design: true
+    assets:
+      - asset/image/
+      - .env
+      - asset/json/
+      - asset/translation/

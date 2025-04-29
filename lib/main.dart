@@ -1,3 +1,3 @@
-part of 'core/app/app.dart';
+import 'app.dart';
 
-void main() => bootstrap(() => const _ArchExampleApp());
+void main() => bootstrap(() => const PickChampApp());
